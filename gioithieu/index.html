@@ -45,7 +45,6 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/Assets/images/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-
     <link rel="icon" href="/Assets/images/favicon.ico" type="image/x-icon" />
 
     <link rel="stylesheet" href="/assets/utc/libs/bootstrap/css/bootstrap.min.css" />
@@ -139,7 +138,6 @@
                                                 class="fas fa-home"></i></a></li>
                                     <li class="nav-item dropdown">
                                         <a href="/gioithieu" class="nav-link">Giới thiệu</a>
-                                    
                                     </li>
                                     <li class="nav-item dropdown"><a class="nav-link" href="/tin-tuc">ĐỘI NGŨ GIẢNG
                                             VIÊN</a></li>
@@ -281,7 +279,7 @@
                                                     THÁNG</a>
                                             </li>
                                             <li class="nav-item dropdown">
-                                                <a class="dropdown-item" href="./map/">TÌM PHÒNG HỌC</a>
+                                                <a class="dropdown-item" href="/map/">TÌM PHÒNG HỌC</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -311,70 +309,51 @@
     </div>
 
     <!-- code -->
+    <div class="container">
+        <h1 class="mb-4">Trường Đại học Giao thông vận tải</h1>
+        
+        <div class="mb-3">
+            <h2>Vị trí</h2>
+            <p>3 Đ. Cầu Giấy, Láng Thượng, Đống Đa, Hà Nội, Việt Nam</p>
+        </div>
 
-    <div id="nd" class="container block p-3">
-        <form>
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <label class="input-group-text" for="inputGroupSelect01">Chọn toà</label>
-                </div>
-                <select class="custom-select" id="toa">
-                    <option value="" selected>Toà...</option>
-                    <option value="A8">A8</option>
-                    <option value="A1">A1</option>
-                    <option value="A3">A3</option>
-                    <option value="A4">A4</option>
-                    <option value="A5">Giảng Đường A5</option>
-                    <option value="A6">A6</option>
-                </select>
-            </div>
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroup-sizing-default">Nhập Phòng</span>
-                </div>
-                <input id="phong" type="text" class="form-control" aria-label="Sizing example input"
-                    aria-describedby="inputGroup-sizing-default">
-            </div>
-            <div class="d-flex justify-content-center">
-                <button id="find" type="button" class="btn btn-secondary">Tìm</button>
-            </div>
-        </form>
-    </div>
-    <!-- pop up -->
-    <div class="modal fade show" id="Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true" style="display: none; background-color: rgba(0, 0, 0, 0.5);">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Tìm phòng</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="closeModalSpan">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p id="addToa">Toà: 00 </p>
-                    <p id="addPhong">Phòng: 00</p>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-6">
-                                <img id="imgToa" class="img-fluid" alt="Image 1"
-                                    src="https://storage.googleapis.com/digital-platform/hinh_anh_top_10_toa_nha_cao_nhat_viet_nam_hien_nay_landmark_81_dung_thu_may_so_1_f5980c8db0/hinh_anh_top_10_toa_nha_cao_nhat_viet_nam_hien_nay_landmark_81_dung_thu_may_so_1_f5980c8db0.jpg">
-                            </div>
-                            <div class="col-6">
-                                <img id="imgPhong" class="img-fluid" alt="Image 2"
-                                    src="https://storage.googleapis.com/digital-platform/hinh_anh_phong_ngu_master_la_gi_nhung_luu_y_khi_thiet_ke_phong_ngu_master_so_4_cef2fb3218/hinh_anh_phong_ngu_master_la_gi_nhung_luu_y_khi_thiet_ke_phong_ngu_master_so_4_cef2fb3218.jpg">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal"
-                        id="closeModalButton">Đóng</button>
-                </div>
-            </div>
+        <div class="mb-3">
+            <h2>Lịch sử ra đời</h2>
+            <p>Trường Đại học Giao thông vận tải (GTVT), tiền thân là Trường Cao đẳng Công chính (thành lập năm 1902) được khai giảng lại dưới chính quyền cách mạng ngày 15 tháng 11 năm 1945. Giai đoạn từ 1945 đến 1960, Trường trải qua nhiều tên gọi khác nhau và đã đào tạo được nhiều cán bộ kỹ thuật trình độ Cao đẳng và Trung cấp thuộc các lĩnh vực Giao thông, Thuỷ lợi, Bưu điện, Kiến trúc phục vụ công cuộc kháng chiến và xây dựng đất nước.</p>
+        </div>
+
+        <div class="mb-3">
+            <h2>Danh hiệu và Phần thưởng</h2>
+            <ul>
+                <li>Danh hiệu Anh hùng Lực lượng Vũ trang Nhân dân (2011)</li>
+                <!-- More items here -->
+            </ul>
+        </div>
+
+        <div class="mb-3">
+            <h2>Các khoa và ngành đào tạo</h2>
+            <ul>
+                <li><a href="https://www.utc.edu.vn/gioi-thieu/khoa-co-khi">Khoa cơ khí</a></li>
+                <!-- More items here -->
+            </ul>
+        </div>
+
+        <div class="mb-3">
+            <h2>Đội ngũ giảng viên</h2>
+            <p>Sở hữu đội ngũ giảng viên đông và dày dặn kinh nghiệm cũng như tràn đầy nhiệt huyết...</p>
+            <a href="https://www.utc.edu.vn/doi-ngu-giang-vien">Xem thêm về đội ngũ giảng viên</a>
+        </div>
+
+        <div class="mb-3">
+            <h2>Cơ sở vật chất</h2>
+            <p>• Tòa nhà: Đại học GTVT có các tòa nhà hiện đại và chất lượng cao...</p>
+        </div>
+
+        <div class="mb-3">
+            <h2>Các hoạt động của trường</h2>
+            <p>Mỗi năm, trường đều tổ chức các hoạt động...</p>
         </div>
     </div>
-
 
     <!-- Footer -->
     <div class="ng-tns-c0-0" id="footer">
